@@ -2,18 +2,11 @@
 
 • AC01:
 
-• Nome oficial do projeto
-
-  Mesa de Bar (Provisório)
+• Nome oficial do projeto ✅
+  - Mesa de Bar (Provisório)
   
-• Apresentação dos membros do grupo
-
-  ✅
+• Apresentação dos membros do grupo ✅
   
-• Criação do git
-
-  ✅ 
+• Criação do git ✅ 
   
-• Escolhas de linguagem e plataforma a serem usadas
-
-  ✅
+• Escolhas de linguagem e plataforma a serem usadas ✅
