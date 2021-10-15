@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #cad4de;
+}
+
+.box{
+    width: 460px;
+    padding: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.box button{
+    border:0;
+    background: none;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #cad4de ;
+    padding: 5px;
+    width: 100px;
+    outline: none;
+    color: white;
+    transform: translate(180%, 5%);
+}
+
+.text-box {
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    margin-top: 100px;
+    color: #191919;
+    text-align: center;
+    font-size: 16px;
+    transform: translate(-50%,-60%);
+}
+
+.box input[type = "text"] {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #cad4de ;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    transition: 0.50s;
+    transform: translate(-20%, 150%);
+    }

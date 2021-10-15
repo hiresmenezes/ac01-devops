@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #cad4de;
+    }
+
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.text-box {
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    margin-top: 100px;
+    color: #191919;
+    text-align: center;
+    font-size: 16px;
+    transform: translate(-50%,-60%);
+}
+
+.box input[type = "email"] {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #cad4de ;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    transition: 0.50s;
+    transform: translate(0%, 0%);
+    }
+
+.box button{
+    border:0;
+    background: none;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #cad4de ;
+    padding: 5px;
+    width: 100px;
+    outline: none;
+    color: white;
+    transform: translate(0%, 0%);
+}
