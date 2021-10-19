@@ -27,5 +27,5 @@ _______________________________________________________
   
 • Escolhas de linguagem e plataforma a serem usadas ✅
 
-• Página para acesso com todas as configurações feitas: https://chat-mesa-de-bar.s3.amazonaws.com/pag_1-login.html
+• Página para acesso com todas as configurações realizadas: https://chat-mesa-de-bar.s3.amazonaws.com/pag_1-login.html
 
