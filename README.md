@@ -29,3 +29,14 @@ _______________________________________________________
 
 • Página para acesso com todas as configurações realizadas: https://chat-mesa-de-bar.s3.amazonaws.com/pag_1-login.html
 
+_______________________________________________________
+
+
+Membros do grupo:
+
+Felipe Waddington Pereira Jeronymo - 1904837
+Gustavo de Moraes Silva - 1905338
+Hires Serva de Maria Menezes - 1904889
+Igor Luan Teles de Souza - 1905365
+Ingrid Cristinne Calou Batista - 1904821
+Rodrigo Augusto Aniceto Alves - 1904668
