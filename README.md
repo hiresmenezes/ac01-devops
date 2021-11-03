@@ -37,6 +37,8 @@ _______________________________________________________
 
 • Armazenamento de mensagens em DynamoDB na AWS ✅
 
+• Página para acesso com todas as configurações realizadas: https://chat-mesa-de-bar.s3.amazonaws.com/pag_1-login.html
+
 _______________________________________________________
 
 Membros do grupo:
