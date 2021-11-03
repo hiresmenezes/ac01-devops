@@ -8,15 +8,49 @@
 </head>
 
 <body>
+<script>
+function enviaMsg() {
+  const xhttp = new XMLHttpRequest();
+
+  xhttp.onreadystatechange = function() {
+    console.log("readyState:" + this.readyState);
+	console.log("status:" + this.status);
+
+    if (this.readyState == 4 && this.status == 200) {
+      imprimeResposta(this);
+    }
+  };
+
+  xhttp.onload = function() {
+    document.getElementById("resposta").innerHTML = this.responseText;
+  };
+
+  //document.getElementById("saida").innerHTML = "mensagem enviada";
+  var data = {
+  "to":document.getElementById("to").value,
+  "msg":document.getElementById("msg").value,
+  "from":document.getElementById("from").value};
+  var jsondata = JSON.stringify(data);
+  var url = "https://vi5alht7tl.execute-api.us-east-1.amazonaws.com/teste";
+  xhttp.open("POST", url);
+  xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+  xhttp.send(jsondata);
+}
+
+function imprimeResposta(xml) {
+  var xmlDoc = xml.responseXML;
+  document.getElementById("resposta").innerHTML = xmlDoc;
+}
+</script>
     <div class="text-box">
         <h1>MESA DE BAR</h1>
         <h2>Jogar conversa fora</h2>
     </div>
-    <form class="box" action="https://vi5alht7tl.execute-api.us-east-1.amazonaws.com/teste" method="POST">
+    <form class="box">
         <input type="text" name="mensagem" id="msg" Name="msg" placeholder="Digite aqui">
-        <input type="hidden" id="from" name="from" value="Jack">
-        <input type="hidden" id="to" name="to" value="Mary">
-        <button type-"button" onclick="enviaMsg">Enviar</button> 
+		<input type="hidden" id="from" name="from" value="Jack">
+		<input type="hidden" id="to" name="to" value="Mary">
+        <button type="button" onclick="enviaMsg()">Enviar</button>
     </form>
     
 </body>
